@@ -39,3 +39,22 @@ DOMAIN-SUFFIX,checkip.dyndns.org
 DOMAIN-SUFFIX,checkipv6.dyndns.org
 DOMAIN-SUFFIX,ifconfig.co
 DOMAIN-SUFFIX,api.myip.com
+# Epic Games - 游戏下载[Azamon]
+DOMAIN-REGEX,^download[1-9]?\.epicgames\.com$
+
+#DOMAIN-SUFFIX,download.epicgames.com
+#DOMAIN-SUFFIX,download2.epicgames.com
+#DOMAIN-SUFFIX,download3.epicgames.com
+#DOMAIN-SUFFIX,download4.epicgames.com
+
+# Epic Games - 游戏下载[Akamai]
+DOMAIN-SUFFIX,epicgames-download1.akamaized.net
+
+# Epic Game - 游戏下载[Fastly]
+DOMAIN-SUFFIX,fastly-download.epicgames.com
+
+# Epic Game - 游戏下载[CloudFlare]
+DOMAIN-SUFFIX,cloudflare.epicgamescdn.com
+
+# Epic Game - 游戏下载[中国区]
+DOMAIN-SUFFIX,epicgames-download1-1251447533.file.myqcloud.com
