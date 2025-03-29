@@ -8,6 +8,14 @@ DOMAIN-KEYWORD,vrmoo.net
 DOMAIN-KEYWORD,cdn.163189.xyz
 DOMAIN-KEYWORD,cdn3.163189.xyz
 DOMAIN-KEYWORD,cdn.163.dedyn.io
+DOMAIN-SUFFIX,bh3.com
+DOMAIN-SUFFIX,hoyolab.com
+DOMAIN-SUFFIX,hoyoverse.com
+DOMAIN-SUFFIX,mihayo.com
+DOMAIN-SUFFIX,mihoyo.com
+DOMAIN-SUFFIX,miyoushe.com
+DOMAIN-SUFFIX,yuanshen.com
+
 # ImmortalWrt 软件仓库
 DOMAIN-SUFFIX,immortalwrt.org
 # GitHub 反代 CDN
