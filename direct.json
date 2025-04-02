@@ -2,8 +2,20 @@
   "version": 1,
   "rules": [
     {
+      "domain": [
+        "ptest-1.ipcheck.ing"
+      ]
+    },
+    {
       "domain_suffix": [
-        "test-ipv6.com"
+      ]
+    },
+    {
+      "domain_keyword": [
+      ]
+    },
+    {
+      "ip_cidr":[
       ]
     }
   ]
