@@ -3,6 +3,7 @@
   "rules": [
     {
       "domain": [
+        "ptest-2.ipcheck.ing"
       ]
     },
     {
