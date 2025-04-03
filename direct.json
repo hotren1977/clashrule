@@ -2,6 +2,9 @@
   "version": 1,
   "rules": [
     {
+      "domain": [
+      "ptest-2.ipcheck.ing"
+      ]
       "domain_suffix": [
 
       ]
