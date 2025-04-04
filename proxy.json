@@ -3,7 +3,7 @@
   "rules": [
     {
       "domain_suffix": [
-        "test-ipv6.com"
+        
       ]
     }
   ]
