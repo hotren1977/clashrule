@@ -34,8 +34,8 @@
      {"outbound": "any", "server": "dns_direct", "disable_cache": true},
      {"clash_mode": "Direct", "server": "dns_direct"},
      {"clash_mode": "Global", "server": "dns_proxy"},
-     {"rule_set": "geosite-cn", "server": "dns_direct"},
-     {"rule_set": "geosite-geolocation-!cn", "server": "dns_proxy"}
+     {"rule_set": ["mydirect", "geosite-cn"],  "server": "dns_direct"},
+     {"rule_set": ["myproxy", "geosite-geolocation-!cn"], "server": "dns_proxy"}
    ],
    "final": "dns_proxy",
    "strategy": "ipv4_only"
@@ -69,16 +69,15 @@
      {"protocol": "dns", "action": "hijack-dns"},
      {"clash_mode": "direct", "outbound": "🎯 全球直连"},
      {"clash_mode": "global", "outbound": "GLOBAL"},
-     {"rule_set": ["geosite-myproxy", "geosite-geolocation-!cn"], "outbound": "🚀 节点选择"},
-     {"rule_set": ["geosite-mydirect", "geoip-private", "geosite-private", "geoip-cn", "geosite-cn"], "outbound": "🎯 全球直连"}
-   ],
+     {"rule_set": ["myproxy", "geosite-geolocation-!cn"], "outbound": "🚀 节点选择"},
+     {"rule_set": ["mydirect", "geoip-cn", "geosite-cn"], "outbound": "🎯 全球直连"}
     
    "rule_set": [
       { "tag": "geosite-geolocation-!cn", "type": "remote", "format": "binary", "url": "https://gh-proxy.com/https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geosite/geolocation-!cn.srs", "download_detour": "🎯 全球直连" },
       { "tag": "geosite-cn", "type": "remote", "format": "binary", "url": "https://gh-proxy.com/https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geosite/cn.srs", "download_detour": "🎯 全球直连" },
       { "tag": "geosite-private", "type": "remote", "format": "binary", "url": "https://gh-proxy.com/https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geosite/private.srs", "download_detour": "🎯 全球直连" },
-      { "tag": "geosite-myproxy", "type": "remote", "format": "source", "url": "https://gh-proxy.com/https://raw.githubusercontent.com/hotren1977/clashrule/refs/heads/main/proxy.json", "download_detour": "🎯 全球直连" },
-      { "tag": "geosite-mydirect", "type": "remote", "format": "source", "url": "https://gh-proxy.com/https://raw.githubusercontent.com/hotren1977/clashrule/refs/heads/main/direct.json", "download_detour": "🎯 全球直连" },     
+      { "tag": "myproxy", "type": "remote", "format": "source", "url": "https://gh-proxy.com/https://raw.githubusercontent.com/hotren1977/clashrule/refs/heads/main/proxy.json", "download_detour": "🎯 全球直连" },
+      { "tag": "mydirect", "type": "remote", "format": "source", "url": "https://gh-proxy.com/https://raw.githubusercontent.com/hotren1977/clashrule/refs/heads/main/direct.json", "download_detour": "🎯 全球直连" },     
       { "tag": "geoip-cn", "type": "remote", "format": "binary", "url": "https://gh-proxy.com/https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geoip/cn.srs", "download_detour": "🎯 全球直连" },
       { "tag": "geoip-private", "type": "remote", "format": "binary", "url": "https://gh-proxy.com/https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geoip/private.srs", "download_detour": "🎯 全球直连" }
     ]
