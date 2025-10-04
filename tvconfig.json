@@ -1,10 +1,10 @@
 {
     "cache_time": 9200,
     "api_site": {
-        "yzzy": {
-            "name": "优质资源库",
-            "api": "https://api.yzzy-api.com/inc/api_mac10_all.php",
-            "detail": "https://api.yzzy-api.com"
+        "baiduyun": {
+            "name": "百度云资源",
+            "api": "https://api.apibdzy.com/api.php/provide/vod",
+            "detail": "https://api.apibdzy.com/"
         }
     }
 }
