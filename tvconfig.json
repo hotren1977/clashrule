@@ -38,7 +38,7 @@
         },
         "api_8": {
             "name": "TV-wujinapi无尽",
-            "api": "https://api.wujinapi.cc/api.php/provide/vod",
+            "api": "https://api.wujinapi.me/api.php/provide/vod/",
             "detail": ""
         },
         "api_9": {
