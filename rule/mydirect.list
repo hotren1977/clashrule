@@ -11,9 +11,7 @@ rtm-cn-diandian-c01-front.ilivedata.com
 +.cdn.163.dedyn.io
 +.v1.fentvoss.com
 +.v3.bxgbnet.com
-# ImmortalWrt 软件仓库
 +.immortalwrt.org
-# GitHub 反代 CDN
 +.gh-proxy.com
 +.gh.con.sh
 +.gh.ddlc.top
@@ -30,34 +28,21 @@ rtm-cn-diandian-c01-front.ilivedata.com
 +.hub.gitmirror.com
 +.jsdelivr.net
 +.kgithub.com
-# Docker 反代 CDN
 +.dockerpull.pw
 +.dockerpull.org
-# 猫眼浏览器
 +.catsxp.com
-# DDNS
 +.synology
 +.quickconnect
 +.checkip.dyndns.org
 +.checkipv6.dyndns.org
 +.ifconfig.co
 +.api.myip.com
-# Epic Games - 游戏下载[Azamon]
 +.^download[1-9]?\.epicgames\.com$
-
 +.download.epicgames.com
 +.download2.epicgames.com
 +.download3.epicgames.com
 +.download4.epicgames.com
-
-# Epic Games - 游戏下载[Akamai]
 +.epicgames-download1.akamaized.net
-
-# Epic Game - 游戏下载[Fastly]
 +.fastly-download.epicgames.com
-
-# Epic Game - 游戏下载[CloudFlare]
 +.cloudflare.epicgamescdn.com
-
-# Epic Game - 游戏下载[中国区]
 +.epicgames-download1-1251447533.file.myqcloud.com
