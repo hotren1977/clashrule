@@ -31,3 +31,6 @@ DOMAIN-SUFFIX, bf.modujx11.com
 DOMAIN-SUFFIX, s1.fengbao9.com
 DOMAIN-SUFFIX, yyv14.qwe132456.cc
 DOMAIN-SUFFIX, g.xlzyd.com
+IP-CIDR, 183.230.146.1/32, no-resolve
+IP-CIDR, 168.138.69.130/32, no-resolve
+IP-CIDR, 143.47.45.1/32, no-resolve
