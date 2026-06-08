@@ -6,3 +6,53 @@ DOMAIN, my-internal.local
 DOMAIN-SUFFIX, nas.home
 IP-CIDR, 10.0.0.0/8, no-resolve
 IP-CIDR, 192.168.1.100/32, no-resolve
+
+rules:
+  # ========== 1. 自定义混合规则集（域名+IP，整体优先） ==========
+  - RULE-SET, myproxy, 🚀 默认代理
+  - RULE-SET, mydirect, 直连
+
+  # ========== 2. 域名规则（GEOSITE，只匹配域名，不加 no-resolve） ==========
+  - GEOSITE, private, 直连
+  - GEOSITE, cn, 直连
+  - GEOSITE, telegram, 🚀 默认代理
+  - GEOSITE, category-ai-!cn, 🚀 默认代理
+  - GEOSITE, youtube, 🚀 默认代理
+  - GEOSITE, netflix, 🚀 默认代理
+  - GEOSITE, tiktok, 🚀 默认代理
+  - GEOSITE, twitter, 🚀 默认代理
+  - GEOSITE, instagram, 🚀 默认代理
+  - GEOSITE, github, 🚀 默认代理
+  - GEOSITE, steam, 🚀 默认代理
+  - GEOSITE, cloudflare, 🚀 默认代理
+  - GEOSITE, google, 🚀 默认代理
+  - GEOSITE, microsoft, 🚀 默认代理
+  - GEOSITE, paypal, 🚀 默认代理
+  - GEOSITE, onedrive, 🚀 默认代理
+  - GEOSITE, gfw, 🚀 默认代理
+
+  # ========== 3. IP 规则（GEOIP，必须加 no-resolve，只匹配已经是 IP 的连接） ==========
+  - GEOIP, private, 直连, no-resolve
+  - GEOIP, cn, 直连, no-resolve
+  - GEOIP, telegram, 🚀 默认代理, no-resolve
+  - GEOIP, netflix, 🚀 默认代理, no-resolve
+  - GEOIP, google, 🚀 默认代理, no-resolve
+
+  # ========== 4. 兜底规则 ==========
+  - MATCH, 🐟 漏网之鱼
+
+# ========== rule-providers 定义（仅 classical 类型） ==========
+rule-providers:
+  myproxy:
+    type: http
+    interval: 86400
+    behavior: classical
+    format: text
+    url: "https://raw.githubusercontent.com/hotren1977/clashrule/refs/heads/main/rule/myproxy.list"
+
+  mydirect:
+    type: http
+    interval: 86400
+    behavior: classical
+    format: text
+    url: "https://raw.githubusercontent.com/hotren1977/clashrule/refs/heads/main/rule/mydirect.list"
