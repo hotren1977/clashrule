@@ -1,37 +1,33 @@
-rtm-cn-diandian-c01-front.ilivedata.com
-+.841226.xyz
-+.rktc.padis.net.cn
-+.bcvcdn.com
-+.claw.cloud
-+.vrmoo.net
-+.freecloud.ltd
-+.cdn.163189.xyz
-+.cdn3.163189.xyz
-+.cdn.163.dedyn.io
-+.v1.fentvoss.com
-+.v3.bxgbnet.com
-+.api.myip.com
-+.^download[1-9]?\.epicgames\.com$
-+.download.epicgames.com
-+.download2.epicgames.com
-+.download3.epicgames.com
-+.download4.epicgames.com
-+.epicgames-download1.akamaized.net
-+.fastly-download.epicgames.com
-+.cloudflare.epicgamescdn.com
-+.epicgames-download1-1251447533.file.myqcloud.com
-vip.dytt-cinema.com
-vip.ffzy-video.com
-vod.360zyx.vip
-vodcnda14.rsfcxq.com
-vodcnd11.3rut0.com
-cdn.wlcdn99.com
-cdn.ryplay11.com
-kkzycdn.com
-v.lzcdn32.com
-v11.qewbn.com
-p.jisuts.com
-bf.modujx11.com
-s1.fengbao9.com
-yyv14.qwe132456.cc
-g.xlzyd.com
+#DOMAIN, example.com
+#DOMAIN-SUFFIX, google.com
+#IP-CIDR, 1.2.3.4/32, no-resolve
+#IP-CIDR, 5.6.7.0/24, no-resolve
+DOMAIN, rtm-cn-diandian-c01-front.ilivedata.com
+DOMAIN-SUFFIX, 841226.xyz
+DOMAIN, rktc.padis.net.cn
+DOMAIN-SUFFIX, bcvcdn.com
+DOMAIN-SUFFIX, vrmoo.net
+DOMAIN-SUFFIX, 163189.xyz
+DOMAIN-SUFFIX, cdn.163.dedyn.io
+DOMAIN-SUFFIX, v1.fentvoss.com
+DOMAIN-SUFFIX, v3.bxgbnet.com
+DOMAIN-SUFFIX, api.myip.com
+DOMAIN-SUFFIX, epicgames-download1.akamaized.net
+DOMAIN-SUFFIX, fastly-download.epicgames.com
+DOMAIN-SUFFIX, cloudflare.epicgamescdn.com
+DOMAIN-SUFFIX, epicgames-download1-1251447533.file.myqcloud.com
+DOMAIN-SUFFIX, vip.dytt-cinema.com
+DOMAIN-SUFFIX, vip.ffzy-video.com
+DOMAIN-SUFFIX, vod.360zyx.vip
+DOMAIN-SUFFIX, vodcnda14.rsfcxq.com
+DOMAIN-SUFFIX, vodcnd11.3rut0.com
+DOMAIN-SUFFIX, cdn.wlcdn99.com
+DOMAIN-SUFFIX, cdn.ryplay11.com
+DOMAIN-SUFFIX, kkzycdn.com
+DOMAIN-SUFFIX, v.lzcdn32.com
+DOMAIN-SUFFIX, v11.qewbn.com
+DOMAIN-SUFFIX, p.jisuts.com
+DOMAIN-SUFFIX, bf.modujx11.com
+DOMAIN-SUFFIX, s1.fengbao9.com
+DOMAIN-SUFFIX, yyv14.qwe132456.cc
+DOMAIN-SUFFIX, g.xlzyd.com
