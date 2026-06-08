@@ -1,9 +1,12 @@
-moonplus.770527.xyz
-+.770527.xyz
-hotren.eu.org
-smart.pendy.dpdns.org
-sport.pendy.dpdns.org
-docker.livednow.dpdns.org
-4gtv.livednow.dpdns.org
-iptv.mydiver.eu.org
-img-s-msn-com.akamaized.net
+#DOMAIN, example.com
+#DOMAIN-SUFFIX, google.com
+#IP-CIDR, 1.2.3.4/32, no-resolve
+#IP-CIDR, 5.6.7.0/24, no-resolve
+DOMAIN-SUFFIX, 770527.xyz
+DOMAIN, hotren.eu.org
+DOMAIN, smart.pendy.dpdns.org
+DOMAIN, sport.pendy.dpdns.org
+DOMAIN, docker.livednow.dpdns.org
+DOMAIN, 4gtv.livednow.dpdns.org
+DOMAIN, iptv.mydiver.eu.org
+DOMAIN, img-s-msn-com.akamaized.net
